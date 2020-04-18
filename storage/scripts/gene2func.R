@@ -153,11 +153,11 @@ if(length(gene_exp)>0 | gene_exp!="NA"){
 			out <- cbind(out, exp)
 			fname <- unlist(strsplit(f, "/"))
 			write.table(out, paste0(filedir, fname[length(fname)], "_exp.txt"), quote=F, row.names=F, sep="\t")
-			load(paste0(config$data$GeneExp, "/", sub("log2", "norm", f), ".RData"))
+			load(paste0(config$data$GeneExp, "/", sub("_MA", "_normMA", sub("log2", "norm", f)), ".RData"))
 			exp <- exp[rownames(exp) %in% genes,]
 			out <- data.frame(ensg=rownames(exp), symbol=ENSG$external_gene_name[match(rownames(exp),ENSG$ensembl_gene_id)])
 			out <- cbind(out, exp)
-			write.table(out, paste0(filedir, sub("log2", "norm", fname[length(fname)]), "_exp.txt"), quote=F, row.names=F, sep="\t")
+			write.table(out, paste0(filedir, sub("_MA", "_normMA", sub("log2", "norm", fname[length(fname)])), "_exp.txt"), quote=F, row.names=F, sep="\t")
 		}
 	}
 	##### DEG test #####

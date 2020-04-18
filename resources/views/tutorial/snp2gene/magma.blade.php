@@ -127,4 +127,12 @@ In this section, reference panels and gene expression data sets are described de
 		Then average of log transformed RPKM with pseudocount 1 (log2(RPKM+1)) per label (for either 11 developmental stages or 29 age groups)
 		was used as the covariates conditioning on the average across all the labels.
 	</p>
+	<h4><strong>4. Allen Human Brain Atlas</strong></h4>
+	<p><strong>Data source</strong><br/>
+		Microarray gene expression data was downloaded from <a href="http://human.brain-map.org/static/download" target="_blank">http://human.brain-map.org/static/download</a>.
+	</p>
+	<p><strong>Pre-process</strong><br/>
+		Pre-process data was provided by Yongbin Wei (VU Amsterdam, 2020 Feb.).
+		Please see <a href="" target="_blank"></a> for more details.
+	</p>
 </div>

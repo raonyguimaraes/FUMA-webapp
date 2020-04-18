@@ -69,6 +69,14 @@
 		</span><br/><br/>
 		Results and images are downloadable as text files and in several image file formats.
 	</p>
+	<p>
+		<span class="info"><i class="fa fa-info"></i>
+			Note that Allen Human Brain Atlas (AHBA) data is not available for DEG analysis.
+			This is because the differences of gene expression patterns across brain regions are subtle and
+			the number of significant DEGs was not sufficient to perform this enrichment analysis.
+			The AHBA data is available for MAGMA gene expression analysis (SMP2GENE) and gene expression heatmap.
+		</span>
+	</p>
 	<img src="{!! URL::asset('/image/gene2funcTs.png') !!}" style="width:60%"/>
 	<br/><br/>
 

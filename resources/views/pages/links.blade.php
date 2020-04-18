@@ -288,6 +288,22 @@ var loggedin = "{{ Auth::check() }}";
 				</td>
 			</tr>
 			<tr>
+				<td>Allen Human Brain Atlas</td>
+				<td>
+					Gene expression data of brain samples.
+					Preprocessed data was obtained from Yongbin Wei (VU Amsterdam).
+					The related study is available in the reference column.
+				</td>
+				<td>
+					Info and data: <a href="http://human.brain-map.org/static/download" target="_blank">http://human.brain-map.org/static/download</a>
+				</td>
+				<td>April 2020</td>
+				<td>
+					Kang et al. 2011. Spatio-temporal transcriptome of the human brain. <i>Nature</i> <b>478</b>, 483-489.<br/>
+					<a href="https://www.ncbi.nlm.nih.gov/pubmed/22031440" target="_blank">PMID:22031440</a>
+				</td>
+			</tr>
+			<tr>
 				<td>GSE87112 (Hi-C)</td>
 				<td>Hi-C data (significant loops) of 21 tissue/cell types. Pre-processed data (output of Fit-Hi-C) is used in FUMA.</td>
 				<td>Info and data: <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87112" target="_blank">https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87112</a></td>

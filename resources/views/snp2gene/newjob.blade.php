@@ -1064,6 +1064,9 @@
 							<option value="GTEx/v6/gtex_v6_ts_general_avg_log2RPKM">GTEx v6: 30 general tissue types</option>
 							<option value="BrainSpan/bs_age_avg_log2RPKM">BrainSpan: 29 different ages of brain samples</option>
 							<option value="BrainSpan/bs_dev_avg_log2RPKM">BrainSpan: 11 general developmental stages of brain samples</option>
+							<option value="AHBA/AHBA_regions_avg_MA">Allen Human Brain Atlas: 65 brain regions</option>
+							<option value="AHBA/AHBA_cortex_regions_avg_MA">Allen Human Brain Atlas: 57 cortex regions</option>
+							<option value="AHBA/AHBA_regions_avg_MA">Allen Human Brain Atlas: 8 subcortical regions</option>
 						</select>
 					</td>
 					<td></td>
